@@ -1,0 +1,205 @@
+body {
+  background-color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+}
+
+p {
+  font-size: 13px;
+  color: hsl(303, 10%, 53%);
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 800;
+}
+
+h5 {
+  color: hsl(300, 24%, 96%);
+  font-size: 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+h6 {
+  color: hsl(333, 80%, 67%);
+  font-size: 9px;
+  position: relative;
+  bottom: 15px;
+}
+
+.card {
+  background-color: hsl(300, 24%, 96%);
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.col1 {
+  position: absolute;
+  top: 60px;
+  left: 90px;
+  padding: 4% 10%;
+}
+
+.col2 {
+  position: absolute;
+  top: 120px;
+  right: 1px;
+}
+
+.card {
+  padding: 15px 5px 0 25px;
+}
+
+.rated {
+  font-size: 10px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 600;
+}
+
+.ca1 {
+  margin-left: 20px;
+}
+
+.ca2 {
+  margin: 40px 0 0 50px;
+}
+
+.ca3 {
+  margin: 40px 0 0 80px;
+}
+
+.image-bottom {
+  position: relative;
+  left: 270px;
+  bottom: 350px;
+}
+
+/***********trio cards********/
+.card1 {
+  background-color: hsl(300, 43%, 22%);
+  width: 260px;
+  height: 180px;
+  border-radius: 5px;
+  position: absolute;
+  top: 400px;
+  margin-left: 240px;
+}
+
+.card2 {
+  background-color: hsl(300, 43%, 22%);
+  width: 260px;
+  height: 180px;
+  border-radius: 5px;
+  position: absolute;
+  top: 420px;
+  margin-left: 530px;
+}
+
+.card3 {
+  background-color: hsl(300, 43%, 22%);
+  width: 260px;
+  height: 180px;
+  position: absolute;
+  top: 440px;
+  margin-left: 820px;
+  border-radius: 5px;
+}
+
+/*********images person***********/
+.image-person {
+  width: 15%;
+  border-radius: 50%;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  float: left;
+}
+
+.par1 {
+  color: hsl(300, 24%, 96%);
+  font-family: 'Spartan', sans-serif;
+  font-size: 10px;
+  position: relative;
+  right: 10px;
+  padding-right: 11px;
+  font-weight: 400;
+}
+
+.par2 {
+  color: hsl(300, 24%, 96%);
+  font-family: 'Spartan', sans-serif;
+  font-size: 10px;
+  position: relative;
+  right: 10px;
+  padding-right: 18px;
+}
+
+.par3 {
+  color: hsl(300, 24%, 96%);
+  font-family: 'Spartan', sans-serif;
+  font-size: 10px;
+  position: relative;
+  right: 10px;
+  padding-right: 20px;
+}
+
+/****************media queri***************/
+@media (max-width: 1000px) {
+  .col1 {
+    text-align: center;
+    display: block;
+    left: auto;
+  }
+
+  .ca1 {
+    position: absolute;
+    left: 1px;
+    top: 150px;
+    margin-left: 1px;
+  }
+
+  .ca2 {
+    position: absolute;
+    left: 1px;
+    top: 160px;
+    margin-left: 1px;
+  }
+
+  .ca3 {
+    position: absolute;
+    left: 1px;
+    top: 210px;
+    margin-left: 1px;
+  }
+
+  .card1 {
+    position: absolute;
+    left: 1px;
+    margin: 20px 0 0 20px;
+  }
+
+  .card2 {
+    position: absolute;
+    left: 1px;
+    margin: 190px 0 0 20px;
+  }
+
+  .card3 {
+    position: absolute;
+    left: 1px;
+    margin: 360px 0 0 20px;
+  }
+  .attribution {
+position: absolute;
+top: 100px;
+
+  }
+}
+/*************attribution*********/
+.attribution {
+  position: relative;
+  bottom: 350px;
+  font-size: 13px;
+}
